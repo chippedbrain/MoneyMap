@@ -1,0 +1,32 @@
+# --- Virtual Environments ---
+# Specifically targeting the venv inside your backend folder
+backend/.venv/
+backend/env/
+backend/venv/
+backend/ENV/
+
+# General python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python Artifacts ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- FastAPI / Development ---
+.env
+.flaskenv
+*.log
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
